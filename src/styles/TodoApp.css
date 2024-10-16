@@ -1,0 +1,35 @@
+#app {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+input {
+    flex-grow: 1;
+    padding: 10px;
+    line-height: 38px;
+    font-size: 16px;
+    border: 1px solid #dadce0;
+    border-radius: 4px 0 0 4px;
+    background-color: #f1f3f4;
+    color: #202124;
+}
+
+input::placeholder {
+    color: #5f6368;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #34a853;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0f9d58;
+}

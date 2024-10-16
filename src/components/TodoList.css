@@ -1,0 +1,57 @@
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f3f4;
+    border: 1px solid #dadce0;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #e8eaed;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #5f6368;
+}
+
+.edit-btn {
+    background-color: #fbbc05;
+    color: #202124;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #e37400;
+}
+
+.remove-btn {
+    background-color: #ea4335;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #d93025;
+}
